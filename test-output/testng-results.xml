@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="33" passed="29" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-05T11:58:23 MYT" name="Default suite" finished-at="2023-01-05T11:58:36 MYT" duration-ms="13752">
+  <suite started-at="2023-01-05T13:14:24 MYT" name="Default suite" finished-at="2023-01-05T13:14:36 MYT" duration-ms="12255">
     <groups>
     </groups>
-    <test started-at="2023-01-05T11:58:23 MYT" name="Default test" finished-at="2023-01-05T11:58:36 MYT" duration-ms="13752">
+    <test started-at="2023-01-05T13:14:24 MYT" name="Default test" finished-at="2023-01-05T13:14:36 MYT" duration-ms="12255">
       <class name="Main">
-        <test-method signature="Validdata()[pri:0, instance:Main@63355449]" started-at="2023-01-05T11:58:23 MYT" name="Validdata" finished-at="2023-01-05T11:58:24 MYT" duration-ms="1213" status="PASS">
+        <test-method signature="Validdata()[pri:0, instance:Main@63355449]" started-at="2023-01-05T13:14:24 MYT" name="Validdata" finished-at="2023-01-05T13:14:25 MYT" duration-ms="1229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validdata -->
-        <test-method signature="Validdata2()[pri:1, instance:Main@63355449]" started-at="2023-01-05T11:58:24 MYT" name="Validdata2" finished-at="2023-01-05T11:58:24 MYT" duration-ms="237" status="PASS">
+        <test-method signature="Validdata2()[pri:1, instance:Main@63355449]" started-at="2023-01-05T13:14:25 MYT" name="Validdata2" finished-at="2023-01-05T13:14:25 MYT" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validdata2 -->
-        <test-method signature="emptyFirstname()[pri:2, instance:Main@63355449]" started-at="2023-01-05T11:58:24 MYT" name="emptyFirstname" finished-at="2023-01-05T11:58:24 MYT" duration-ms="242" status="PASS">
+        <test-method signature="emptyFirstname()[pri:2, instance:Main@63355449]" started-at="2023-01-05T13:14:25 MYT" name="emptyFirstname" finished-at="2023-01-05T13:14:26 MYT" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyFirstname -->
-        <test-method signature="Firstname_int()[pri:3, instance:Main@63355449]" started-at="2023-01-05T11:58:24 MYT" name="Firstname_int" finished-at="2023-01-05T11:58:25 MYT" duration-ms="237" status="FAIL">
+        <test-method signature="Firstname_int()[pri:3, instance:Main@63355449]" started-at="2023-01-05T13:14:26 MYT" name="Firstname_int" finished-at="2023-01-05T13:14:26 MYT" duration-ms="238" status="FAIL">
           <exception class="java.io.IOException">
             <message>
               <![CDATA[Server returned HTTP response code: 500 for URL: https://restful-booker.herokuapp.com/booking]]>
@@ -81,7 +81,7 @@ at NegativeTestCases.Firstname_int(NegativeTestCases.java:95)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Firstname_int -->
-        <test-method signature="Firstname_boolean()[pri:4, instance:Main@63355449]" started-at="2023-01-05T11:58:25 MYT" name="Firstname_boolean" finished-at="2023-01-05T11:58:26 MYT" duration-ms="1728" status="FAIL">
+        <test-method signature="Firstname_boolean()[pri:4, instance:Main@63355449]" started-at="2023-01-05T13:14:26 MYT" name="Firstname_boolean" finished-at="2023-01-05T13:14:27 MYT" duration-ms="716" status="FAIL">
           <exception class="java.io.IOException">
             <message>
               <![CDATA[Server returned HTTP response code: 500 for URL: https://restful-booker.herokuapp.com/booking]]>
@@ -143,15 +143,15 @@ at NegativeTestCases.Firstname_boolean(NegativeTestCases.java:148)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Firstname_boolean -->
-        <test-method signature="longFirstname()[pri:5, instance:Main@63355449]" started-at="2023-01-05T11:58:26 MYT" name="longFirstname" finished-at="2023-01-05T11:58:27 MYT" duration-ms="712" status="PASS">
+        <test-method signature="longFirstname()[pri:5, instance:Main@63355449]" started-at="2023-01-05T13:14:27 MYT" name="longFirstname" finished-at="2023-01-05T13:14:27 MYT" duration-ms="714" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- longFirstname -->
-        <test-method signature="emptyLastname()[pri:6, instance:Main@63355449]" started-at="2023-01-05T11:58:27 MYT" name="emptyLastname" finished-at="2023-01-05T11:58:27 MYT" duration-ms="236" status="PASS">
+        <test-method signature="emptyLastname()[pri:6, instance:Main@63355449]" started-at="2023-01-05T13:14:27 MYT" name="emptyLastname" finished-at="2023-01-05T13:14:28 MYT" duration-ms="240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyLastname -->
-        <test-method signature="Lastname_int()[pri:7, instance:Main@63355449]" started-at="2023-01-05T11:58:27 MYT" name="Lastname_int" finished-at="2023-01-05T11:58:28 MYT" duration-ms="237" status="FAIL">
+        <test-method signature="Lastname_int()[pri:7, instance:Main@63355449]" started-at="2023-01-05T13:14:28 MYT" name="Lastname_int" finished-at="2023-01-05T13:14:28 MYT" duration-ms="238" status="FAIL">
           <exception class="java.io.IOException">
             <message>
               <![CDATA[Server returned HTTP response code: 500 for URL: https://restful-booker.herokuapp.com/booking]]>
@@ -213,7 +213,7 @@ at NegativeTestCases.Lastname_int(NegativeTestCases.java:304)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Lastname_int -->
-        <test-method signature="Lastname_boolean()[pri:8, instance:Main@63355449]" started-at="2023-01-05T11:58:28 MYT" name="Lastname_boolean" finished-at="2023-01-05T11:58:28 MYT" duration-ms="711" status="FAIL">
+        <test-method signature="Lastname_boolean()[pri:8, instance:Main@63355449]" started-at="2023-01-05T13:14:28 MYT" name="Lastname_boolean" finished-at="2023-01-05T13:14:29 MYT" duration-ms="711" status="FAIL">
           <exception class="java.io.IOException">
             <message>
               <![CDATA[Server returned HTTP response code: 500 for URL: https://restful-booker.herokuapp.com/booking]]>
@@ -275,99 +275,99 @@ at NegativeTestCases.Lastname_boolean(NegativeTestCases.java:357)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Lastname_boolean -->
-        <test-method signature="longLastname()[pri:9, instance:Main@63355449]" started-at="2023-01-05T11:58:28 MYT" name="longLastname" finished-at="2023-01-05T11:58:29 MYT" duration-ms="710" status="PASS">
+        <test-method signature="longLastname()[pri:9, instance:Main@63355449]" started-at="2023-01-05T13:14:29 MYT" name="longLastname" finished-at="2023-01-05T13:14:29 MYT" duration-ms="711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- longLastname -->
-        <test-method signature="emptyTotalPrice()[pri:10, instance:Main@63355449]" started-at="2023-01-05T11:58:29 MYT" name="emptyTotalPrice" finished-at="2023-01-05T11:58:29 MYT" duration-ms="240" status="PASS">
+        <test-method signature="emptyTotalPrice()[pri:10, instance:Main@63355449]" started-at="2023-01-05T13:14:29 MYT" name="emptyTotalPrice" finished-at="2023-01-05T13:14:29 MYT" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyTotalPrice -->
-        <test-method signature="TotalPrice_string()[pri:11, instance:Main@63355449]" started-at="2023-01-05T11:58:29 MYT" name="TotalPrice_string" finished-at="2023-01-05T11:58:30 MYT" duration-ms="712" status="PASS">
+        <test-method signature="TotalPrice_string()[pri:11, instance:Main@63355449]" started-at="2023-01-05T13:14:29 MYT" name="TotalPrice_string" finished-at="2023-01-05T13:14:30 MYT" duration-ms="712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TotalPrice_string -->
-        <test-method signature="TotalPrice_boolean()[pri:12, instance:Main@63355449]" started-at="2023-01-05T11:58:30 MYT" name="TotalPrice_boolean" finished-at="2023-01-05T11:58:30 MYT" duration-ms="243" status="PASS">
+        <test-method signature="TotalPrice_boolean()[pri:12, instance:Main@63355449]" started-at="2023-01-05T13:14:30 MYT" name="TotalPrice_boolean" finished-at="2023-01-05T13:14:30 MYT" duration-ms="240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TotalPrice_boolean -->
-        <test-method signature="longTotalprice()[pri:13, instance:Main@63355449]" started-at="2023-01-05T11:58:30 MYT" name="longTotalprice" finished-at="2023-01-05T11:58:30 MYT" duration-ms="242" status="PASS">
+        <test-method signature="longTotalprice()[pri:13, instance:Main@63355449]" started-at="2023-01-05T13:14:30 MYT" name="longTotalprice" finished-at="2023-01-05T13:14:31 MYT" duration-ms="241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- longTotalprice -->
-        <test-method signature="emptyDepositPaid()[pri:14, instance:Main@63355449]" started-at="2023-01-05T11:58:30 MYT" name="emptyDepositPaid" finished-at="2023-01-05T11:58:31 MYT" duration-ms="238" status="PASS">
+        <test-method signature="emptyDepositPaid()[pri:14, instance:Main@63355449]" started-at="2023-01-05T13:14:31 MYT" name="emptyDepositPaid" finished-at="2023-01-05T13:14:31 MYT" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyDepositPaid -->
-        <test-method signature="DepositPaid_string()[pri:15, instance:Main@63355449]" started-at="2023-01-05T11:58:31 MYT" name="DepositPaid_string" finished-at="2023-01-05T11:58:31 MYT" duration-ms="712" status="PASS">
+        <test-method signature="DepositPaid_string()[pri:15, instance:Main@63355449]" started-at="2023-01-05T13:14:31 MYT" name="DepositPaid_string" finished-at="2023-01-05T13:14:32 MYT" duration-ms="711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DepositPaid_string -->
-        <test-method signature="DepositPaid_int()[pri:16, instance:Main@63355449]" started-at="2023-01-05T11:58:31 MYT" name="DepositPaid_int" finished-at="2023-01-05T11:58:32 MYT" duration-ms="239" status="PASS">
+        <test-method signature="DepositPaid_int()[pri:16, instance:Main@63355449]" started-at="2023-01-05T13:14:32 MYT" name="DepositPaid_int" finished-at="2023-01-05T13:14:32 MYT" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DepositPaid_int -->
-        <test-method signature="longDepositPaid()[pri:17, instance:Main@63355449]" started-at="2023-01-05T11:58:32 MYT" name="longDepositPaid" finished-at="2023-01-05T11:58:32 MYT" duration-ms="239" status="PASS">
+        <test-method signature="longDepositPaid()[pri:17, instance:Main@63355449]" started-at="2023-01-05T13:14:32 MYT" name="longDepositPaid" finished-at="2023-01-05T13:14:32 MYT" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- longDepositPaid -->
-        <test-method signature="emptyCheckin()[pri:18, instance:Main@63355449]" started-at="2023-01-05T11:58:32 MYT" name="emptyCheckin" finished-at="2023-01-05T11:58:32 MYT" duration-ms="246" status="PASS">
+        <test-method signature="emptyCheckin()[pri:18, instance:Main@63355449]" started-at="2023-01-05T13:14:32 MYT" name="emptyCheckin" finished-at="2023-01-05T13:14:32 MYT" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyCheckin -->
-        <test-method signature="Checkin_string()[pri:19, instance:Main@63355449]" started-at="2023-01-05T11:58:32 MYT" name="Checkin_string" finished-at="2023-01-05T11:58:32 MYT" duration-ms="239" status="PASS">
+        <test-method signature="Checkin_string()[pri:19, instance:Main@63355449]" started-at="2023-01-05T13:14:32 MYT" name="Checkin_string" finished-at="2023-01-05T13:14:33 MYT" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkin_string -->
-        <test-method signature="Checkin_int()[pri:20, instance:Main@63355449]" started-at="2023-01-05T11:58:32 MYT" name="Checkin_int" finished-at="2023-01-05T11:58:33 MYT" duration-ms="252" status="PASS">
+        <test-method signature="Checkin_int()[pri:20, instance:Main@63355449]" started-at="2023-01-05T13:14:33 MYT" name="Checkin_int" finished-at="2023-01-05T13:14:33 MYT" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkin_int -->
-        <test-method signature="Checkin_boolean()[pri:21, instance:Main@63355449]" started-at="2023-01-05T11:58:33 MYT" name="Checkin_boolean" finished-at="2023-01-05T11:58:33 MYT" duration-ms="241" status="PASS">
+        <test-method signature="Checkin_boolean()[pri:21, instance:Main@63355449]" started-at="2023-01-05T13:14:33 MYT" name="Checkin_boolean" finished-at="2023-01-05T13:14:33 MYT" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkin_boolean -->
-        <test-method signature="longCheckin()[pri:22, instance:Main@63355449]" started-at="2023-01-05T11:58:33 MYT" name="longCheckin" finished-at="2023-01-05T11:58:33 MYT" duration-ms="237" status="PASS">
+        <test-method signature="longCheckin()[pri:22, instance:Main@63355449]" started-at="2023-01-05T13:14:33 MYT" name="longCheckin" finished-at="2023-01-05T13:14:33 MYT" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- longCheckin -->
-        <test-method signature="emptyCheckout()[pri:23, instance:Main@63355449]" started-at="2023-01-05T11:58:33 MYT" name="emptyCheckout" finished-at="2023-01-05T11:58:33 MYT" duration-ms="239" status="PASS">
+        <test-method signature="emptyCheckout()[pri:23, instance:Main@63355449]" started-at="2023-01-05T13:14:33 MYT" name="emptyCheckout" finished-at="2023-01-05T13:14:34 MYT" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyCheckout -->
-        <test-method signature="Checkout_string()[pri:24, instance:Main@63355449]" started-at="2023-01-05T11:58:33 MYT" name="Checkout_string" finished-at="2023-01-05T11:58:34 MYT" duration-ms="237" status="PASS">
+        <test-method signature="Checkout_string()[pri:24, instance:Main@63355449]" started-at="2023-01-05T13:14:34 MYT" name="Checkout_string" finished-at="2023-01-05T13:14:34 MYT" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkout_string -->
-        <test-method signature="Checkout_int()[pri:25, instance:Main@63355449]" started-at="2023-01-05T11:58:34 MYT" name="Checkout_int" finished-at="2023-01-05T11:58:34 MYT" duration-ms="240" status="PASS">
+        <test-method signature="Checkout_int()[pri:25, instance:Main@63355449]" started-at="2023-01-05T13:14:34 MYT" name="Checkout_int" finished-at="2023-01-05T13:14:34 MYT" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkout_int -->
-        <test-method signature="Checkout_boolean()[pri:26, instance:Main@63355449]" started-at="2023-01-05T11:58:34 MYT" name="Checkout_boolean" finished-at="2023-01-05T11:58:34 MYT" duration-ms="238" status="PASS">
+        <test-method signature="Checkout_boolean()[pri:26, instance:Main@63355449]" started-at="2023-01-05T13:14:34 MYT" name="Checkout_boolean" finished-at="2023-01-05T13:14:34 MYT" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkout_boolean -->
-        <test-method signature="longCheckout()[pri:27, instance:Main@63355449]" started-at="2023-01-05T11:58:34 MYT" name="longCheckout" finished-at="2023-01-05T11:58:34 MYT" duration-ms="238" status="PASS">
+        <test-method signature="longCheckout()[pri:27, instance:Main@63355449]" started-at="2023-01-05T13:14:34 MYT" name="longCheckout" finished-at="2023-01-05T13:14:34 MYT" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- longCheckout -->
-        <test-method signature="Checkin_more_Checkout()[pri:28, instance:Main@63355449]" started-at="2023-01-05T11:58:34 MYT" name="Checkin_more_Checkout" finished-at="2023-01-05T11:58:35 MYT" duration-ms="240" status="PASS">
+        <test-method signature="Checkin_more_Checkout()[pri:28, instance:Main@63355449]" started-at="2023-01-05T13:14:34 MYT" name="Checkin_more_Checkout" finished-at="2023-01-05T13:14:35 MYT" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkin_more_Checkout -->
-        <test-method signature="emptyAdditionalneeds()[pri:29, instance:Main@63355449]" started-at="2023-01-05T11:58:35 MYT" name="emptyAdditionalneeds" finished-at="2023-01-05T11:58:35 MYT" duration-ms="237" status="PASS">
+        <test-method signature="emptyAdditionalneeds()[pri:29, instance:Main@63355449]" started-at="2023-01-05T13:14:35 MYT" name="emptyAdditionalneeds" finished-at="2023-01-05T13:14:35 MYT" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyAdditionalneeds -->
-        <test-method signature="Additionalneeds_int()[pri:30, instance:Main@63355449]" started-at="2023-01-05T11:58:35 MYT" name="Additionalneeds_int" finished-at="2023-01-05T11:58:36 MYT" duration-ms="709" status="PASS">
+        <test-method signature="Additionalneeds_int()[pri:30, instance:Main@63355449]" started-at="2023-01-05T13:14:35 MYT" name="Additionalneeds_int" finished-at="2023-01-05T13:14:35 MYT" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Additionalneeds_int -->
-        <test-method signature="Additionalneeds_boolean()[pri:31, instance:Main@63355449]" started-at="2023-01-05T11:58:36 MYT" name="Additionalneeds_boolean" finished-at="2023-01-05T11:58:36 MYT" duration-ms="243" status="PASS">
+        <test-method signature="Additionalneeds_boolean()[pri:31, instance:Main@63355449]" started-at="2023-01-05T13:14:35 MYT" name="Additionalneeds_boolean" finished-at="2023-01-05T13:14:36 MYT" duration-ms="710" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Additionalneeds_boolean -->
-        <test-method signature="longAdditionalneeds()[pri:32, instance:Main@63355449]" started-at="2023-01-05T11:58:36 MYT" name="longAdditionalneeds" finished-at="2023-01-05T11:58:36 MYT" duration-ms="711" status="PASS">
+        <test-method signature="longAdditionalneeds()[pri:32, instance:Main@63355449]" started-at="2023-01-05T13:14:36 MYT" name="longAdditionalneeds" finished-at="2023-01-05T13:14:36 MYT" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- longAdditionalneeds -->
